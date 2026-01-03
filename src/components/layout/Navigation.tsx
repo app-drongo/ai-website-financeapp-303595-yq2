@@ -36,21 +36,15 @@ export default function Navigation(props: NavigationProps) {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center">
             <Image
-              src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/dc6f83c97c99f510f01c43aea7eb3270.svg"
+              src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/c79750b68a6e0569529b834cfb904153.svg"
               alt="Logo"
               width={120}
               height={48}
-              className="h-10 md:h-12 lg:h-14 w-auto object-contain"
-            />
-            <span
-              className="font-bold text-xl tracking-tight cursor-pointer"
+              className="h-10 md:h-12 lg:h-14 w-auto object-contain cursor-pointer"
               onClick={() => handleNavClick('/')}
-              data-editable="brandName"
-            >
-              {config.brandName}
-            </span>
+            />
           </div>
 
           {/* Desktop Navigation */}
@@ -95,17 +89,14 @@ export default function Navigation(props: NavigationProps) {
               <SheetContent side="right" className="w-[300px] bg-background">
                 <div className="flex flex-col gap-6 mt-8">
                   {/* Mobile Logo */}
-                  <div className="flex items-center gap-2 pb-4 border-b border-border">
+                  <div className="flex items-center justify-center pb-4 border-b border-border">
                     <Image
-                      src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/dc6f83c97c99f510f01c43aea7eb3270.svg"
+                      src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/c79750b68a6e0569529b834cfb904153.svg"
                       alt="Logo"
                       width={120}
                       height={48}
                       className="h-8 md:h-10 w-auto object-contain"
                     />
-                    <span className="font-bold text-lg" data-editable="brandName">
-                      {config.brandName}
-                    </span>
                   </div>
 
                   {/* Mobile Navigation Items */}
