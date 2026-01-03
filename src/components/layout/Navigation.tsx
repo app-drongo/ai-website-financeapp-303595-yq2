@@ -38,11 +38,11 @@ export default function Navigation(props: NavigationProps) {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <Image
-              src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/e724ef9b92c47f6d2217692da92e64f3.svg"
+              src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/dc6f83c97c99f510f01c43aea7eb3270.svg"
               alt="Logo"
-              width={32}
-              height={32}
-              className="h-8 w-8 object-contain"
+              width={120}
+              height={48}
+              className="h-10 md:h-12 lg:h-14 w-auto object-contain"
             />
             <span
               className="font-bold text-xl tracking-tight cursor-pointer"
@@ -97,11 +97,11 @@ export default function Navigation(props: NavigationProps) {
                   {/* Mobile Logo */}
                   <div className="flex items-center gap-2 pb-4 border-b border-border">
                     <Image
-                      src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/e724ef9b92c47f6d2217692da92e64f3.svg"
+                      src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/dc6f83c97c99f510f01c43aea7eb3270.svg"
                       alt="Logo"
-                      width={24}
-                      height={24}
-                      className="h-6 w-6 object-contain"
+                      width={120}
+                      height={48}
+                      className="h-8 md:h-10 w-auto object-contain"
                     />
                     <span className="font-bold text-lg" data-editable="brandName">
                       {config.brandName}
