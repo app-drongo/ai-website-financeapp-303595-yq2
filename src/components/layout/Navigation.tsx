@@ -38,7 +38,7 @@ export default function Navigation(props: NavigationProps) {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <Image
-              src="/uploads/logo.png"
+              src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/e724ef9b92c47f6d2217692da92e64f3.svg"
               alt="Logo"
               width={32}
               height={32}
@@ -97,7 +97,7 @@ export default function Navigation(props: NavigationProps) {
                   {/* Mobile Logo */}
                   <div className="flex items-center gap-2 pb-4 border-b border-border">
                     <Image
-                      src="/uploads/logo.png"
+                      src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/e724ef9b92c47f6d2217692da92e64f3.svg"
                       alt="Logo"
                       width={24}
                       height={24}
